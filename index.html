@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOLIS Cloud &amp; Cyber | Consultoría en Nube y Ciberseguridad ISO/IEC 27001 — Bogotá</title>
+<meta name="description" content="Consultoría TI en Bogotá: arquitectura y migración multinube (Azure, AWS, Oracle Cloud y Huawei Cloud) e implementación de SGSI ISO/IEC 27001:2022. Ing. Laura Sophia Salazar Olivera.">
+<meta name="keywords" content="consultoría TI, Azure, AWS, Oracle Cloud, Huawei Cloud, ISO 27001, ciberseguridad, Bogotá, SGSI, migración a la nube">
+<meta name="author" content="Salazar Olivera Consultoría Cloud y Ciberseguridad S.A.S.">
+<meta property="og:title" content="SOLIS Cloud & Cyber — Consultoría en Nube y Ciberseguridad">
+<meta property="og:description" content="Arquitectura multinube segura y cumplimiento ISO/IEC 27001 para empresas colombianas.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#060b18">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"SOLIS Cloud & Cyber Consulting",
+  "legalName":"Salazar Olivera Consultoría Cloud y Ciberseguridad S.A.S.",
+  "taxID":"901.987.654-0",
+  "founder":{"@type":"Person","name":"Laura Sophia Salazar Olivera","jobTitle":"Ingeniera en Telecomunicaciones, Especialista en Seguridad de la Información"},
+  "address":{"@type":"PostalAddress","streetAddress":"Calle 93B # 12-48, Oficina 502","addressLocality":"Bogotá D.C.","addressCountry":"CO"},
+  "telephone":"+57 310 742 2763",
+  "email":"contacto@soliscloudcyber.com.co",
+  "areaServed":"CO"
+}
+</script>
+</head>
+<body>
+<div class="bg-orbs"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div></div>
+<div class="grid-overlay"></div>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="container">
+    <nav class="nav glass" aria-label="Navegación principal">
+      <a href="#inicio" class="brand" aria-label="SOLIS Cloud & Cyber, inicio">
+        <img src="favicon.svg" alt="" class="brand-mark">
+        <div><span class="name">SOLIS Cloud &amp; Cyber</span><small>Consultoría TI · S.A.S.</small></div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#casos">Casos de éxito</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#legal">Legalidad</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-primary">Agenda un diagnóstico
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="inicio">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <span class="eyebrow"><span class="dot"></span>Consultoría TI · Multinube · ISO/IEC 27001</span>
+      <h1>Tu empresa en la nube, con la <span class="grad-text">seguridad como punto de partida</span></h1>
+      <p class="lead">Diseñamos, migramos y protegemos infraestructura en <strong>Microsoft Azure, AWS, Oracle Cloud y Huawei Cloud</strong>, y acompañamos a tu organización hasta la certificación <strong>ISO/IEC 27001:2022</strong>. Tecnología alineada con tus objetivos de negocio.</p>
+      <div class="hero-ctas">
+        <a href="#contacto" class="btn btn-primary">Solicitar diagnóstico gratuito
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+      </div>
+      <div class="trust">
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>NIT 901.987.654-0</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Matriculada en la CCB</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Facturación electrónica DIAN</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Ley 1581 de 2012</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="position:relative">
+      <div class="hero-card glass">
+        <div class="hc-top"><h4>Postura de seguridad · Cliente demo</h4><span class="status">Monitoreo activo</span></div>
+        <div class="gauge-wrap">
+          <div class="gauge">
+            <svg viewBox="0 0 150 150" width="150" height="150">
+              <defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+              <circle cx="75" cy="75" r="62" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="12"/>
+              <circle id="gaugeArc" cx="75" cy="75" r="62" fill="none" stroke="url(#gg)" stroke-width="12" stroke-linecap="round" stroke-dasharray="389.6" stroke-dashoffset="389.6" style="transition:stroke-dashoffset 1.8s cubic-bezier(.2,.8,.2,1)"/>
+            </svg>
+            <div class="val"><div><b id="gaugeNum">0</b><small>Índice de<br>cumplimiento</small></div></div>
+          </div>
+          <div class="bars">
+            <div class="bar"><label><span>Controles Anexo A (93)</span><span>91%</span></label><div class="track"><div class="fill" data-w="91"></div></div></div>
+            <div class="bar"><label><span>Identidad y accesos (IAM)</span><span>96%</span></label><div class="track"><div class="fill" data-w="96"></div></div></div>
+            <div class="bar"><label><span>Cifrado en reposo/tránsito</span><span>100%</span></label><div class="track"><div class="fill" data-w="100"></div></div></div>
+            <div class="bar"><label><span>Respaldo y continuidad</span><span>88%</span></label><div class="track"><div class="fill" data-w="88"></div></div></div>
+          </div>
+        </div>
+        <div class="clouds">
+          <div class="cloud-pill"><b>Azure</b>Microsoft</div>
+          <div class="cloud-pill"><b>AWS</b>Amazon</div>
+          <div class="cloud-pill"><b>OCI</b>Oracle</div>
+          <div class="cloud-pill"><b>Huawei</b>Cloud</div>
+        </div>
+      </div>
+      <div class="float-badge fb1 glass"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div><div><b>ISO/IEC 27001:2022</b><br><span style="color:var(--ink-mute)">Lead Implementer &amp; Auditor</span></div></div>
+      <div class="float-badge fb2 glass"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.6 1.5A3.4 3.4 0 0 0 7 18z"/></svg></div><div><b>4 nubes</b><br><span style="color:var(--ink-mute)">Arquitectura certificada</span></div></div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:70px">
+    <div class="stats glass reveal">
+      <div class="stat"><b class="grad-text" data-count="8">0</b><span>años en TI y telecomunicaciones</span></div>
+      <div class="stat"><b class="grad-text" data-count="35" data-suffix="+">0</b><span>proyectos cloud entregados</span></div>
+      <div class="stat"><b class="grad-text" data-count="12">0</b><span>organizaciones acompañadas a ISO 27001</span></div>
+      <div class="stat"><b class="grad-text" data-count="11">0</b><span>certificaciones profesionales vigentes</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PERFIL ================= -->
+<section id="perfil">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Perfil profesional</span>
+      <h2>Ingeniería de telecomunicaciones al servicio de <span class="grad-text">tu estrategia digital</span></h2>
+      <p class="lead">Una consultora con visión de negocio, formación técnica profunda y experiencia práctica en las cuatro nubes con mayor presencia en Colombia.</p>
+    </div>
+    <div class="profile-grid">
+      <aside class="profile-card glass reveal">
+        <div class="avatar"><div class="avatar-in"><span class="grad-text">LS</span></div></div>
+        <h3>Laura Sophia Salazar Olivera</h3>
+        <p class="role">Ingeniera en Telecomunicaciones</p>
+        <p class="spec">Especialista en Seguridad de la Información<br>Fundadora y Representante Legal</p>
+        <div class="contact-mini">
+          <a href="mailto:laura.salazar@soliscloudcyber.com.co"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>laura.salazar@soliscloudcyber.com.co</a>
+          <a href="tel:+573107422763"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+57 310 742 2763</a>
+          <a href="#contacto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>linkedin.com/in/laurasalazarolivera</a>
+        </div>
+      </aside>
+
+      <div class="bio reveal">
+        <p>Soy <strong>Laura Sophia Salazar Olivera</strong>, ingeniera en telecomunicaciones y especialista en seguridad de la información. Durante más de ocho años he diseñado redes de transporte, centros de datos y plataformas en la nube para empresas de telecomunicaciones, banca, salud y sector público.</p>
+        <p>Fundé <strong>SOLIS Cloud &amp; Cyber</strong> con una idea sencilla: la nube solo genera valor cuando es <strong>segura, gobernada y rentable</strong>. Por eso cada proyecto que asesoramos combina arquitectura técnica, gestión de riesgos bajo <strong>ISO/IEC 27001 e ISO/IEC 27005</strong> y una lectura clara de los objetivos estratégicos de la organización.</p>
+
+        <h3 class="subhead">Certificaciones</h3>
+        <div class="cert-grid">
+          <div class="cert glass"><div class="logo l-az">AZ</div><div><div class="t">Azure Solutions Architect Expert</div><div class="s">Microsoft · AZ-305</div></div></div>
+          <div class="cert glass"><div class="logo l-az">SC</div><div><div class="t">Cybersecurity Architect Expert</div><div class="s">Microsoft · SC-100</div></div></div>
+          <div class="cert glass"><div class="logo l-aws">AWS</div><div><div class="t">Solutions Architect – Professional</div><div class="s">Amazon Web Services</div></div></div>
+          <div class="cert glass"><div class="logo l-aws">AWS</div><div><div class="t">Security – Specialty</div><div class="s">Amazon Web Services</div></div></div>
+          <div class="cert glass"><div class="logo l-oci">OCI</div><div><div class="t">OCI Architect Professional</div><div class="s">Oracle Cloud Infrastructure</div></div></div>
+          <div class="cert glass"><div class="logo l-hw">HW</div><div><div class="t">HCIP – Cloud Service Solutions Architect</div><div class="s">Huawei Cloud</div></div></div>
+          <div class="cert glass"><div class="logo l-iso">ISO</div><div><div class="t">ISO/IEC 27001:2022 Lead Implementer</div><div class="s">Sistema de Gestión de Seguridad de la Información</div></div></div>
+          <div class="cert glass"><div class="logo l-iso">ISO</div><div><div class="t">ISO/IEC 27001:2022 Lead Auditor</div><div class="s">Auditoría de SGSI</div></div></div>
+          <div class="cert glass"><div class="logo l-gen">CSA</div><div><div class="t">CCSK – Cloud Security Knowledge</div><div class="s">Cloud Security Alliance</div></div></div>
+          <div class="cert glass"><div class="logo l-gen">ITIL</div><div><div class="t">ITIL® 4 Foundation</div><div class="s">Gestión de servicios TI</div></div></div>
+        </div>
+
+        <h3 class="subhead">Habilidades y conocimientos</h3>
+        <div class="skills">
+          <div class="skill-group glass"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.6 1.5A3.4 3.4 0 0 0 7 18z"/></svg>Arquitectura cloud</h4>
+            <div class="tags"><span>Landing Zones</span><span>Well-Architected</span><span>Kubernetes (AKS/EKS/OKE/CCE)</span><span>Terraform</span><span>Serverless</span><span>FinOps</span><span>Alta disponibilidad</span></div></div>
+          <div class="skill-group glass"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6z"/></svg>Ciberseguridad</h4>
+            <div class="tags"><span>SGSI ISO 27001</span><span>ISO 27005 riesgos</span><span>Zero Trust</span><span>IAM / MFA</span><span>SIEM (Sentinel)</span><span>CSPM</span><span>Gestión de vulnerabilidades</span></div></div>
+          <div class="skill-group glass"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M5 12a7 7 0 0 1 14 0M2 12a10 10 0 0 1 20 0"/></svg>Redes y telecom</h4>
+            <div class="tags"><span>SD-WAN</span><span>VPN site-to-site</span><span>BGP / MPLS</span><span>ExpressRoute / Direct Connect</span><span>Firewalls NGFW</span><span>Segmentación</span></div></div>
+          <div class="skill-group glass"><h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19h16M6 15l4-4 3 3 5-6"/></svg>Gobierno y negocio</h4>
+            <div class="tags"><span>Ley 1581 de 2012</span><span>MSPI – MinTIC</span><span>ISO 22301</span><span>COBIT 2019</span><span>Gestión de proyectos</span><span>Business cases TI</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICIOS ================= -->
+<section id="servicios">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Portafolio de servicios</span>
+      <h2>Soluciones de consultoría <span class="grad-text">de punta a punta</span></h2>
+      <p class="lead">Desde la estrategia hasta la operación: te ayudamos a decidir, construir y proteger tu plataforma tecnológica.</p>
+    </div>
+    <div class="services">
+      <article class="service glass reveal">
+        <span class="tagline">Estrategia</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 18h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.6 1.5A3.4 3.4 0 0 0 7 18z"/><path d="M12 11v5M10 14l2 2 2-2"/></svg></div>
+        <h3>Estrategia y migración multinube</h3>
+        <p>Evaluamos tus cargas de trabajo y definimos la nube correcta (Azure, AWS, OCI o Huawei Cloud) con un plan de migración por oleadas.</p>
+        <ul><li>Assessment de aplicaciones (modelo 7R)</li><li>Business case y TCO</li><li>Hoja de ruta de migración</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Arquitectura</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div>
+        <h3>Arquitectura y Landing Zones</h3>
+        <p>Diseñamos bases seguras y escalables: cuentas/suscripciones, redes, identidades, políticas y automatización como código.</p>
+        <ul><li>Landing Zone con Terraform</li><li>Redes híbridas y conectividad</li><li>Alta disponibilidad y DR</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Ciberseguridad</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Implementación de SGSI ISO/IEC 27001</h3>
+        <p>Construimos tu Sistema de Gestión de Seguridad de la Información y te acompañamos hasta la auditoría de certificación.</p>
+        <ul><li>Análisis de brechas (GAP)</li><li>Declaración de aplicabilidad (SoA)</li><li>Políticas, procedimientos y métricas</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Riesgo</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg></div>
+        <h3>Gestión de riesgos y continuidad</h3>
+        <p>Identificamos, valoramos y tratamos los riesgos de información y diseñamos planes de continuidad y recuperación.</p>
+        <ul><li>Matriz de riesgos ISO 27005</li><li>BIA y plan de continuidad (ISO 22301)</li><li>Pruebas de recuperación</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Auditoría</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M8 11l2 2 4-4"/></svg></div>
+        <h3>Auditoría interna y seguridad cloud</h3>
+        <p>Auditorías internas del SGSI y revisiones de configuración en la nube contra CIS Benchmarks y marcos de referencia.</p>
+        <ul><li>Auditoría interna ISO 27001</li><li>Revisión CSPM multinube</li><li>Informe ejecutivo y plan de acción</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Cumplimiento</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 14l2 2 4-4"/></svg></div>
+        <h3>Cumplimiento normativo colombiano</h3>
+        <p>Alineamos tu operación con la Ley 1581 de 2012 (datos personales), el MSPI de MinTIC y requisitos sectoriales.</p>
+        <ul><li>Programa de protección de datos</li><li>Registro de bases de datos (RNBD)</li><li>Gobierno de la información</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Optimización</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>FinOps y optimización de costos</h3>
+        <p>Visibilidad y control del gasto en la nube: etiquetado, presupuestos, reservas y dimensionamiento correcto.</p>
+        <ul><li>Diagnóstico de consumo</li><li>Ahorros típicos del 20 % al 35 %</li><li>Tableros de costos por área</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">vCISO</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div>
+        <h3>CISO virtual (vCISO)</h3>
+        <p>Liderazgo de seguridad por demanda para empresas que aún no tienen un oficial de seguridad de tiempo completo.</p>
+        <ul><li>Comité de seguridad mensual</li><li>Indicadores para la gerencia</li><li>Atención de incidentes</li></ul>
+      </article>
+      <article class="service glass reveal">
+        <span class="tagline">Formación</span>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div>
+        <h3>Capacitación y concientización</h3>
+        <p>Programas de cultura de seguridad y talleres técnicos para equipos de TI en las cuatro nubes.</p>
+        <ul><li>Simulaciones de phishing</li><li>Talleres cloud hands-on</li><li>Formación de auditores internos</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= METODOLOGIA ================= -->
+<section id="metodologia" style="padding-top:20px">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Cómo trabajamos</span>
+      <h2>Metodología basada en el ciclo <span class="grad-text">PHVA</span></h2>
+      <p class="lead">El mismo ciclo de mejora continua que exige ISO/IEC 27001, aplicado a cada proyecto.</p>
+    </div>
+    <div class="steps">
+      <div class="step glass reveal"><span class="phva">P</span><div class="n grad-text">01</div><h4>Diagnóstico</h4><p>Entrevistas, inventario de activos, análisis de brechas y madurez.</p></div>
+      <div class="step glass reveal"><span class="phva">P</span><div class="n grad-text">02</div><h4>Diseño</h4><p>Arquitectura objetivo, matriz de riesgos y hoja de ruta priorizada.</p></div>
+      <div class="step glass reveal"><span class="phva">H</span><div class="n grad-text">03</div><h4>Implementación</h4><p>Despliegue como código, controles, políticas y transferencia de conocimiento.</p></div>
+      <div class="step glass reveal"><span class="phva">V</span><div class="n grad-text">04</div><h4>Verificación</h4><p>Pruebas, auditoría interna, indicadores y revisión por la dirección.</p></div>
+      <div class="step glass reveal"><span class="phva">A</span><div class="n grad-text">05</div><h4>Mejora continua</h4><p>Acciones correctivas, optimización de costos y acompañamiento.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CASOS ================= -->
+<section id="casos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Casos de éxito</span>
+      <h2>Resultados medibles para <span class="grad-text">organizaciones reales</span></h2>
+      <p class="lead">Por acuerdos de confidencialidad presentamos los casos de forma anonimizada.</p>
+    </div>
+    <div class="cases">
+      <article class="case glass reveal">
+        <div class="sector"><span class="chip">Sector financiero · Cooperativa</span><span class="chip">Azure</span></div>
+        <h3>Certificación ISO/IEC 27001:2022 en 9 meses</h3>
+        <p>Implementación del SGSI, Declaración de Aplicabilidad con 93 controles, matriz de riesgos y despliegue de Microsoft Sentinel como SIEM. La entidad obtuvo la certificación sin no conformidades mayores.</p>
+        <div class="metrics"><div class="metric"><b class="grad-text">0</b><span>no conformidades mayores</span></div><div class="metric"><b class="grad-text">9</b><span>meses a certificación</span></div><div class="metric"><b class="grad-text">-62%</b><span>tiempo de respuesta a incidentes</span></div></div>
+      </article>
+      <article class="case glass reveal">
+        <div class="sector"><span class="chip">Retail · Comercio electrónico</span><span class="chip">AWS</span></div>
+        <h3>Migración de 48 servidores a AWS</h3>
+        <p>Migración por oleadas de la plataforma de ventas en línea a AWS con arquitectura multi-AZ, Landing Zone con AWS Control Tower y estrategia FinOps.</p>
+        <div class="metrics"><div class="metric"><b class="grad-text">99,95%</b><span>disponibilidad lograda</span></div><div class="metric"><b class="grad-text">-31%</b><span>costo de infraestructura</span></div><div class="metric"><b class="grad-text">48</b><span>servidores migrados</span></div></div>
+      </article>
+      <article class="case glass reveal">
+        <div class="sector"><span class="chip">Salud · Red de IPS</span><span class="chip">Oracle Cloud</span></div>
+        <h3>Historia clínica en OCI con recuperación ante desastres</h3>
+        <p>Traslado de la base de datos Oracle de historia clínica a OCI con Autonomous Database, Data Guard entre regiones y cifrado de extremo a extremo, alineado con la Ley 1581.</p>
+        <div class="metrics"><div class="metric"><b class="grad-text">15 min</b><span>RPO alcanzado</span></div><div class="metric"><b class="grad-text">1 h</b><span>RTO probado</span></div><div class="metric"><b class="grad-text">100%</b><span>datos cifrados</span></div></div>
+      </article>
+      <article class="case glass reveal">
+        <div class="sector"><span class="chip">Sector público · Entidad territorial</span><span class="chip">Huawei Cloud</span></div>
+        <h3>Nube de gobierno alineada con el MSPI</h3>
+        <p>Diseño de la plataforma de servicios ciudadanos en Huawei Cloud, segmentación de red, WAF y plan de seguridad conforme al Modelo de Seguridad y Privacidad de MinTIC.</p>
+        <div class="metrics"><div class="metric"><b class="grad-text">3x</b><span>capacidad en picos</span></div><div class="metric"><b class="grad-text">+40</b><span>trámites en línea</span></div><div class="metric"><b class="grad-text">MSPI</b><span>nivel optimizado</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTORES ================= -->
+<section id="sectores" style="padding-top:20px">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Oportunidades</span>
+      <h2>Sectores en los que <span class="grad-text">generamos más valor</span></h2>
+    </div>
+    <div class="sectors">
+      <div class="sector-card glass reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div><div><h4>Financiero y cooperativo</h4><p>Exigencias de ciberseguridad de la Superintendencia Financiera y certificación ISO 27001.</p></div></div>
+      <div class="sector-card glass reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg></div><div><h4>Salud</h4><p>Protección de historia clínica, datos sensibles y continuidad de servicios críticos.</p></div></div>
+      <div class="sector-card glass reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10h18M5 10v8M9 10v8M15 10v8M19 10v8M2 21h20M12 3l9 5H3z"/></svg></div><div><h4>Sector público</h4><p>Política de Gobierno Digital, MSPI y servicios ciudadanos en la nube.</p></div></div>
+      <div class="sector-card glass reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.5L22 7H6"/></svg></div><div><h4>Retail y e-commerce</h4><p>Escalabilidad en temporadas pico, pagos seguros y optimización de costos.</p></div></div>
+      <div class="sector-card glass reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div><div><h4>Educación</h4><p>Plataformas virtuales, identidad unificada y protección de datos de estudiantes.</p></div></div>
+      <div class="sector-card glass reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M2 9a15 15 0 0 1 20 0M12 20h.01"/></svg></div><div><h4>Telecomunicaciones</h4><p>Modernización de OSS/BSS, redes híbridas y seguridad de infraestructura crítica.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PLANES ================= -->
+<section id="planes">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Modelos de contratación</span>
+      <h2>Elige cómo quieres <span class="grad-text">trabajar con nosotros</span></h2>
+      <p class="lead">Valores de referencia antes de IVA. Cada propuesta se ajusta al alcance real después del diagnóstico.</p>
+    </div>
+    <div class="plans">
+      <div class="plan glass reveal">
+        <h3>Diagnóstico Express</h3>
+        <div class="price">$4.500.000 <small>COP · pago único</small></div>
+        <p class="desc">Para conocer en dos semanas dónde estás y qué hacer primero.</p>
+        <ul><li>Análisis de brechas ISO 27001</li><li>Revisión de configuración en una nube</li><li>Informe ejecutivo con riesgos priorizados</li><li>Sesión de cierre con la gerencia</li></ul>
+        <a href="#contacto" class="btn btn-ghost" data-plan="Diagnóstico Express">Solicitar</a>
+      </div>
+      <div class="plan glass featured reveal">
+        <span class="badge">Más solicitado</span>
+        <h3>Proyecto llave en mano</h3>
+        <div class="price">$38.000.000 <small>COP · desde</small></div>
+        <p class="desc">Implementación completa de SGSI o migración a la nube con entregables cerrados.</p>
+        <ul><li>Plan de proyecto y gobierno semanal</li><li>Arquitectura, despliegue y documentación</li><li>Acompañamiento a la auditoría de certificación</li><li>Transferencia de conocimiento al equipo</li><li>Garantía de 90 días posteriores</li></ul>
+        <a href="#contacto" class="btn btn-primary" data-plan="Proyecto llave en mano">Cotizar proyecto</a>
+      </div>
+      <div class="plan glass reveal">
+        <h3>Acompañamiento mensual</h3>
+        <div class="price">$6.800.000 <small>COP / mes</small></div>
+        <p class="desc">Servicio de CISO virtual y arquitecto cloud por demanda.</p>
+        <ul><li>32 horas de consultoría al mes</li><li>Comité de seguridad y reporte de indicadores</li><li>Revisión FinOps mensual</li><li>Soporte prioritario ante incidentes</li></ul>
+        <a href="#contacto" class="btn btn-ghost" data-plan="Acompañamiento mensual">Solicitar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEGALIDAD / TRANSPARENCIA ================= -->
+<section id="legal">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Transparencia corporativa</span>
+      <h2>Una empresa <span class="grad-text">legalmente constituida</span> en Colombia</h2>
+      <p class="lead">Publicamos nuestra información legal y tributaria para que nuestros clientes contraten con total confianza.</p>
+    </div>
+
+    <div class="legal-grid">
+      <div class="legal-table glass reveal">
+        <table>
+          <tr><th>Razón social</th><td>Salazar Olivera Consultoría Cloud y Ciberseguridad S.A.S.</td></tr>
+          <tr><th>Nombre comercial / sigla</th><td>SOLIS Cloud &amp; Cyber</td></tr>
+          <tr><th>NIT</th><td class="mono">901.987.654-0 <span class="ok">✓ RUT activo</span></td></tr>
+          <tr><th>Tipo de sociedad</th><td>Sociedad por Acciones Simplificada (Ley 1258 de 2008)</td></tr>
+          <tr><th>Matrícula mercantil</th><td class="mono">03845217 · Cámara de Comercio de Bogotá <span class="ok">✓ Activa</span></td></tr>
+          <tr><th>Fecha de constitución</th><td>14 de octubre de 2026 (documento privado inscrito el 21/10/2026)</td></tr>
+          <tr><th>Representante legal</th><td>Laura Sophia Salazar Olivera</td></tr>
+          <tr><th>Actividad económica (CIIU)</th><td><span class="mono">6202</span> Consultoría informática y administración de instalaciones informáticas · <span class="mono">7020</span> Consultoría de gestión</td></tr>
+          <tr><th>Responsabilidades tributarias</th><td>05 Renta régimen ordinario · 07 Retención en la fuente · 48 IVA · 52 Facturador electrónico</td></tr>
+          <tr><th>Facturación electrónica</th><td>Resolución DIAN No. <span class="mono">18764091234567</span> del 28/10/2026 · Prefijo <span class="mono">SOL</span> · Rango 000 al 999</td></tr>
+          <tr><th>Domicilio</th><td>Calle 93B # 12-48, Oficina 502, Bogotá D.C., Colombia</td></tr>
+          <tr><th>Capital suscrito / pagado</th><td>$50.000.000 / $20.000.000 COP</td></tr>
+        </table>
+      </div>
+
+      <div class="timeline glass reveal">
+        <h3 style="font-size:1.15rem;margin-bottom:18px">Ruta de formalización</h3>
+        <div class="tl-item"><div class="tl-num">1</div><div><h4>Carta y minuta de acuerdo</h4><p>Documento de constitución y estatutos sociales de la S.A.S. firmados por la accionista única.</p><div class="meta">14 oct 2026 · Firmas autenticadas</div></div></div>
+        <div class="tl-item"><div class="tl-num">2</div><div><h4>Escritura pública / documento privado</h4><p>Constitución por documento privado (art. 5, Ley 1258 de 2008); minuta de escritura disponible para aportes en especie.</p><div class="meta">Notaría 16 del Círculo de Bogotá</div></div></div>
+        <div class="tl-item"><div class="tl-num">3</div><div><h4>Cámara de Comercio de Bogotá</h4><p>Formulario RUES, registro mercantil, inscripción de libros y certificado de existencia y representación legal.</p><div class="meta">21 oct 2026 · Matrícula 03845217</div></div></div>
+        <div class="tl-item"><div class="tl-num">4</div><div><h4>DIAN</h4><p>Pre-RUT, RUT definitivo con NIT, contraseña y firma electrónica, habilitación como facturador y numeración 000–999.</p><div class="meta">28 oct 2026 · NIT 901.987.654-0</div></div></div>
+      </div>
+    </div>
+
+    <div class="docs">
+      <a class="doc glass reveal" href="politica-de-datos.html"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6z"/><rect x="9" y="10" width="6" height="5" rx="1"/><path d="M10 10V8.5a2 2 0 0 1 4 0V10"/></svg></div><h4>Política de tratamiento de datos personales</h4><p>Ley 1581 de 2012 · Decreto 1377 de 2013</p><span class="dl">Leer política →</span></a>
+      <a class="doc glass reveal" href="aviso-legal.html"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></div><h4>Aviso legal y términos de uso</h4><p>Información corporativa, uso del sitio y PQRS</p><span class="dl">Leer aviso →</span></a>
+      <a class="doc glass reveal" href="politica-de-datos.html#imprimir"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></div><h4>Política de datos (PDF)</h4><p>Versión imprimible / guardar como PDF</p><span class="dl">Descargar PDF ↓</span></a>
+      <a class="doc glass reveal" href="autorizacion-datos.html"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></div><h4>Formato de autorización de datos</h4><p>Para clientes, proveedores y candidatos</p><span class="dl">Abrir formato →</span></a>
+    </div>
+
+    <div class="compliance reveal">
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Ley 1258 de 2008 – S.A.S.</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Ley 1581 de 2012 – Habeas Data</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Ley 527 de 1999 – Comercio electrónico</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Ley 1480 de 2011 – Estatuto del Consumidor</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg>Ley 2195 de 2022 – Transparencia</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" style="padding-top:20px">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <h2>Resolvemos tus <span class="grad-text">dudas</span></h2>
+    </div>
+    <div class="faq">
+      <details class="glass reveal"><summary>¿Con qué nubes trabajan?</summary><p>Somos especialistas en Microsoft Azure, Amazon Web Services (AWS), Oracle Cloud Infrastructure (OCI) y Huawei Cloud. Somos agnósticos: recomendamos la plataforma que mejor se ajuste a tus requisitos técnicos, regulatorios y de costo.</p></details>
+      <details class="glass reveal"><summary>¿Cuánto tarda una implementación de ISO/IEC 27001?</summary><p>Depende del tamaño y la madurez de la organización. Para una empresa mediana el ciclo completo (diagnóstico, implementación, auditoría interna y certificación) toma normalmente entre 6 y 10 meses.</p></details>
+      <details class="glass reveal"><summary>¿Ustedes emiten la certificación ISO 27001?</summary><p>No. La certificación la otorga un organismo de certificación acreditado e independiente. Nosotros preparamos a tu organización y la acompañamos durante la auditoría, lo que garantiza imparcialidad.</p></details>
+      <details class="glass reveal"><summary>¿Firman acuerdos de confidencialidad?</summary><p>Sí. Antes de iniciar cualquier diagnóstico firmamos un acuerdo de confidencialidad (NDA) y, cuando aplica, un contrato de transmisión de datos personales conforme a la Ley 1581 de 2012.</p></details>
+      <details class="glass reveal"><summary>¿Emiten factura electrónica?</summary><p>Sí. Somos facturadores electrónicos habilitados por la DIAN y somos responsables de IVA. Todas nuestras facturas se validan previamente ante la DIAN.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contacto">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contacto</span>
+      <h2>¿Listo para una nube <span class="grad-text">más segura</span>?</h2>
+      <p class="lead">Cuéntanos tu necesidad y te contactaremos en menos de 24 horas hábiles para agendar un diagnóstico sin costo.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info glass reveal">
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><div><small>Celular / WhatsApp</small><a href="tel:+573107422763">+57 310 742 2763</a></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div><div><small>PBX Bogotá</small><a href="tel:+576017422763">(601) 742 2763</a></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><small>Correo comercial</small><a href="mailto:contacto@soliscloudcyber.com.co">contacto@soliscloudcyber.com.co</a></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><small>Oficina</small><span>Calle 93B # 12-48, Of. 502 · Bogotá D.C.</span></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><div><small>Horario de atención</small><span>Lunes a viernes 8:00 a. m. – 6:00 p. m.</span></div></div>
+        <div class="map"><iframe title="Mapa de ubicación — Chicó, Bogotá" loading="lazy" src="https://maps.google.com/maps?q=Parque%20de%20la%2093%2C%20Bogot%C3%A1&z=15&output=embed"></iframe></div>
+      </div>
+
+      <div class="form glass reveal">
+        <form id="contactForm" novalidate>
+          <h3>Solicita atención personalizada</h3>
+          <p class="lead">Los campos marcados con <span style="color:var(--cyan)">*</span> son obligatorios.</p>
+          <div class="row">
+            <div class="field"><label for="nombre">Nombre completo <span class="req">*</span></label><input id="nombre" name="nombre" autocomplete="name" required><span class="err">Ingresa tu nombre.</span></div>
+            <div class="field"><label for="empresa">Empresa</label><input id="empresa" name="empresa" autocomplete="organization"></div>
+          </div>
+          <div class="row">
+            <div class="field"><label for="correo">Correo electrónico <span class="req">*</span></label><input id="correo" name="correo" type="email" autocomplete="email" required><span class="err">Ingresa un correo válido.</span></div>
+            <div class="field"><label for="telefono">Teléfono <span class="req">*</span></label><input id="telefono" name="telefono" type="tel" autocomplete="tel" placeholder="+57 300 000 0000" required><span class="err">Ingresa un teléfono de al menos 7 dígitos.</span></div>
+          </div>
+          <div class="row">
+            <div class="field"><label for="servicio">Servicio de interés <span class="req">*</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Selecciona una opción</option>
+                <option>Estrategia y migración multinube</option>
+                <option>Arquitectura y Landing Zones</option>
+                <option>Implementación de SGSI ISO/IEC 27001</option>
+                <option>Gestión de riesgos y continuidad</option>
+                <option>Auditoría interna y seguridad cloud</option>
+                <option>Cumplimiento normativo (Ley 1581 / MSPI)</option>
+                <option>FinOps y optimización de costos</option>
+                <option>CISO virtual (vCISO)</option>
+                <option>Capacitación y concientización</option>
+                <option>Diagnóstico Express</option>
+                <option>Proyecto llave en mano</option>
+                <option>Acompañamiento mensual</option>
+              </select><span class="err">Selecciona un servicio.</span></div>
+            <div class="field"><label for="nube">Nube principal</label>
+              <select id="nube" name="nube"><option>Aún no definida</option><option>Microsoft Azure</option><option>Amazon Web Services</option><option>Oracle Cloud (OCI)</option><option>Huawei Cloud</option><option>Multinube / híbrida</option><option>On-premise</option></select></div>
+          </div>
+          <div class="field"><label for="mensaje">¿Cómo podemos ayudarte? <span class="req">*</span></label><textarea id="mensaje" name="mensaje" required placeholder="Describe brevemente tu necesidad, tamaño de la empresa y plazos esperados."></textarea><span class="err">Cuéntanos un poco más (mínimo 15 caracteres).</span></div>
+          <label class="check" id="consentWrap"><input type="checkbox" id="consent" name="consent"><span>Autorizo de manera previa, expresa e informada a <strong>Salazar Olivera Consultoría Cloud y Ciberseguridad S.A.S.</strong> para tratar mis datos personales con el fin de atender mi solicitud, conforme a su <a href="politica-de-datos.html" target="_blank">Política de Tratamiento de Datos Personales</a> y a la Ley 1581 de 2012. <span style="color:var(--cyan)">*</span></span></label>
+          <label class="check"><input type="checkbox" id="news" name="news"><span>Deseo recibir contenidos e invitaciones a eventos sobre nube y ciberseguridad (opcional).</span></label>
+          <button type="submit" class="btn btn-primary">Enviar solicitud
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg></button>
+          <p class="form-note">🔒 Tus datos viajan cifrados (HTTPS) y no se comparten con terceros.</p>
+        </form>
+        <div class="success" id="formSuccess" role="status" aria-live="polite">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></div>
+          <h3>¡Solicitud recibida!</h3>
+          <p>Gracias, <span id="sName"></span>. Una consultora te contactará en menos de 24 horas hábiles.</p>
+          <div class="ticket">Radicado: <b id="sTicket"></b></div>
+          <p style="font-size:.85rem">Si prefieres, también puedes <a id="sMail" href="#" style="color:var(--cyan);text-decoration:underline">enviarnos la solicitud por correo</a>.</p>
+          <button class="btn btn-ghost" id="newReq" style="margin-top:18px">Enviar otra solicitud</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-band glass reveal" style="margin-top:60px">
+      <h3>Agenda una sesión de 30 minutos y recibe un <span class="grad-text">mapa inicial de riesgos</span> de tu nube.</h3>
+      <a href="https://wa.me/573107422763?text=Hola%2C%20quiero%20agendar%20un%20diagn%C3%B3stico%20con%20SOLIS%20Cloud%20%26%20Cyber" class="btn btn-primary" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a href="#inicio" class="brand"><img src="favicon.svg" alt="" class="brand-mark"><div><span class="name">SOLIS Cloud &amp; Cyber</span><small>Consultoría TI · S.A.S.</small></div></a>
+        <p style="margin-top:14px">Consultoría en arquitectura multinube y seguridad de la información para empresas colombianas.</p>
+        <div class="socials">
+          <a href="#contacto" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+          <a href="#contacto" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+          <a href="#contacto" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15V9l5.7 3z"/></svg></a>
+        </div>
+      </div>
+      <div><h5>Servicios</h5><ul><li><a href="#servicios">Migración multinube</a></li><li><a href="#servicios">SGSI ISO/IEC 27001</a></li><li><a href="#servicios">Gestión de riesgos</a></li><li><a href="#servicios">FinOps</a></li><li><a href="#servicios">CISO virtual</a></li></ul></div>
+      <div><h5>Legal</h5><ul><li><a href="politica-de-datos.html">Tratamiento de datos</a></li><li><a href="aviso-legal.html">Aviso legal y términos</a></li><li><a href="aviso-legal.html#pqrs">PQRS</a></li><li><a href="#legal">Transparencia</a></li></ul></div>
+      <div><h5>Contacto</h5><ul><li><a href="tel:+573107422763">+57 310 742 2763</a></li><li><a href="mailto:contacto@soliscloudcyber.com.co">contacto@soliscloudcyber.com.co</a></li><li><a href="mailto:datospersonales@soliscloudcyber.com.co">datospersonales@soliscloudcyber.com.co</a></li><li><p>Calle 93B # 12-48, Of. 502, Bogotá D.C.</p></li></ul></div>
+    </div>
+    <div class="foot-legal">
+      <span>© <span id="yr">2026</span> Salazar Olivera Consultoría Cloud y Ciberseguridad S.A.S. · NIT 901.987.654-0 · Matrícula CCB 03845217</span>
+      <span>Sitio desarrollado con fines académicos</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/573107422763?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5a.5.5 0 0 0 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.4 13.4 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.7a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.2 24l6.4-1.7a11.8 11.8 0 0 0 5.6 1.4A11.8 11.8 0 0 0 20.5 3.5z"/></svg></a>
+
+<div class="cookie glass" id="cookie">
+  <p>Usamos cookies técnicas para que el sitio funcione correctamente. Conoce más en nuestra <a href="politica-de-datos.html">Política de Tratamiento de Datos</a>.</p>
+  <div class="btns"><button class="btn btn-primary" id="cookieOk">Aceptar</button><a class="btn btn-ghost" href="politica-de-datos.html">Más información</a></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
